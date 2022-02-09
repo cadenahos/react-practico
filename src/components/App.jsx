@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import '../styles/global.scss';
+import Layout from '../containers/Layout';
+import Login from '../containers/login';
+import '../styles/global.css';
 class App extends Component {
     render() {
         return (
-            <div>
-                <h1>Hola Mundo, Bienvenidos a primer Proyecto de React</h1>
-            </div>
+            <Layout>
+                <Login/>
+            </Layout>
         );
     }
 }
